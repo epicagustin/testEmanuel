@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_navigation"
+    app:startDestination="@id/loginFragmentNavigation">
+
+    <fragment
+        android:id="@+id/loginFragmentNavigation"
+        android:name="com.emanuel.testsessionemanuel.features.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/go_to_home"
+            app:destination="@id/mobile_navigation"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <activity
+        android:id="@+id/mobile_navigation"
+        android:name="com.emanuel.testsessionemanuel.DashboardActivity"
+        tools:layout="@layout/activity_main"/>
+</navigation>

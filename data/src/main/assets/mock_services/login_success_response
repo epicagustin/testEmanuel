@@ -1,0 +1,14 @@
+{
+  "access_token": "asdfsdjlb23b4l12b3j4hbwldfug723grfd",
+  "expires_in": 120000,
+  "products": [
+    {
+      "name": "cuenta soles",
+      "detail": "S/. 1000"
+    },
+    {
+      "name": "cuenta dolares",
+      "detail": "$ 500"
+    }
+  ]
+}
